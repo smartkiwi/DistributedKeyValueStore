@@ -6,10 +6,75 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		8531D5771A2DA71100187453 /* Application.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		8531D5781A2DA71100187453 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		8531D5791A2DA71100187453 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		8531D57A1A2DA71100187453 /* EmulNet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EmulNet.cpp; sourceTree = "<group>"; };
+		8531D57B1A2DA71100187453 /* EmulNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmulNet.h; sourceTree = "<group>"; };
+		8531D57C1A2DA71100187453 /* Entry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entry.cpp; sourceTree = "<group>"; };
+		8531D57D1A2DA71100187453 /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		8531D57E1A2DA71100187453 /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		8531D57F1A2DA71100187453 /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		8531D5801A2DA71100187453 /* KVStoreGrader.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = KVStoreGrader.sh; sourceTree = "<group>"; };
+		8531D5811A2DA71100187453 /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		8531D5821A2DA71100187453 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		8531D5831A2DA71100187453 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		8531D5841A2DA71100187453 /* Member.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Member.cpp; sourceTree = "<group>"; };
+		8531D5851A2DA71100187453 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		8531D5861A2DA71100187453 /* Message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Message.cpp; sourceTree = "<group>"; };
+		8531D5871A2DA71100187453 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		8531D5881A2DA71100187453 /* MP1Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MP1Node.cpp; sourceTree = "<group>"; };
+		8531D5891A2DA71100187453 /* MP1Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP1Node.h; sourceTree = "<group>"; };
+		8531D58A1A2DA71100187453 /* MP2Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MP2Node.cpp; sourceTree = "<group>"; };
+		8531D58B1A2DA71100187453 /* MP2Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP2Node.h; sourceTree = "<group>"; };
+		8531D58C1A2DA71100187453 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		8531D58D1A2DA71100187453 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		8531D58E1A2DA71100187453 /* Params.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Params.cpp; sourceTree = "<group>"; };
+		8531D58F1A2DA71100187453 /* Params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Params.h; sourceTree = "<group>"; };
+		8531D5901A2DA71100187453 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		8531D5911A2DA71100187453 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		8531D5921A2DA71100187453 /* stdincludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdincludes.h; sourceTree = "<group>"; };
+		8531D5931A2DA71100187453 /* testcases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testcases; sourceTree = "<group>"; };
+		8531D5941A2DA71100187453 /* Trace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trace.cpp; sourceTree = "<group>"; };
+		8531D5951A2DA71100187453 /* Trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trace.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		8531D56C1A2DA61900187453 = {
 			isa = PBXGroup;
 			children = (
+				8531D5771A2DA71100187453 /* Application.cpp */,
+				8531D5781A2DA71100187453 /* Application.h */,
+				8531D5791A2DA71100187453 /* common.h */,
+				8531D57A1A2DA71100187453 /* EmulNet.cpp */,
+				8531D57B1A2DA71100187453 /* EmulNet.h */,
+				8531D57C1A2DA71100187453 /* Entry.cpp */,
+				8531D57D1A2DA71100187453 /* Entry.h */,
+				8531D57E1A2DA71100187453 /* HashTable.cpp */,
+				8531D57F1A2DA71100187453 /* HashTable.h */,
+				8531D5801A2DA71100187453 /* KVStoreGrader.sh */,
+				8531D5811A2DA71100187453 /* Log.cpp */,
+				8531D5821A2DA71100187453 /* Log.h */,
+				8531D5831A2DA71100187453 /* Makefile */,
+				8531D5841A2DA71100187453 /* Member.cpp */,
+				8531D5851A2DA71100187453 /* Member.h */,
+				8531D5861A2DA71100187453 /* Message.cpp */,
+				8531D5871A2DA71100187453 /* Message.h */,
+				8531D5881A2DA71100187453 /* MP1Node.cpp */,
+				8531D5891A2DA71100187453 /* MP1Node.h */,
+				8531D58A1A2DA71100187453 /* MP2Node.cpp */,
+				8531D58B1A2DA71100187453 /* MP2Node.h */,
+				8531D58C1A2DA71100187453 /* Node.cpp */,
+				8531D58D1A2DA71100187453 /* Node.h */,
+				8531D58E1A2DA71100187453 /* Params.cpp */,
+				8531D58F1A2DA71100187453 /* Params.h */,
+				8531D5901A2DA71100187453 /* Queue.h */,
+				8531D5911A2DA71100187453 /* Readme.txt */,
+				8531D5921A2DA71100187453 /* stdincludes.h */,
+				8531D5931A2DA71100187453 /* testcases */,
+				8531D5941A2DA71100187453 /* Trace.cpp */,
+				8531D5951A2DA71100187453 /* Trace.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +88,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/aditi_khullar/Desktop/mp2_latest;
 			dependencies = (
 			);
 			name = mp2_latest;
